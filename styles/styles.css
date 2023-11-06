@@ -9,18 +9,18 @@ html {
 
 body {
   font-family: "Maven Pro", sans-serif;
-  color: #fff;
+  color: black;
   text-align: center;
   background: #fff;
 }
 
 nav {
   background: rgba(39, 15, 77, 0.937254902);
-  height: 83.8rem;
+  height: 81.5rem;
 }
 nav .nav-header {
   display: flex;
-  margin-top: 3.5rem;
+  padding-top: 2.4rem;
 }
 nav .nav-header .main-logo {
   text-align: left;
@@ -126,6 +126,7 @@ nav .box-2 {
 }
 nav .box-2 img {
   position: absolute;
+  z-index: 1;
 }
 nav .box-2 .head-photo-back {
   width: 35.9rem;
@@ -138,6 +139,67 @@ nav .box-2 .head-photo-front {
   height: 59.1rem;
   right: 0;
   margin-top: 2.5rem;
+}
+nav .box-2 .grandiant-white {
+  position: absolute;
+  width: 100%;
+  height: 23.9rem;
+  margin-top: 38rem;
+  background: transparent linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5843137255) 22%, #ffffff 55%, #ffffff 89%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 2;
+}
+nav .app-icon {
+  position: relative;
+  margin-top: 60rem;
+  z-index: 3;
+}
+nav .app-icon img {
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+main .box-3 {
+  margin-top: 33rem;
+}
+main .box-3 h2 {
+  text-align: left;
+  color: #450E87;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 2rem 3.5rem;
+  padding: 0;
+}
+main .box-3 p {
+  text-align: left;
+  color: #7D8E9F;
+  font-size: 2.2rem;
+  margin: 0 0 2rem 3.5rem;
+  padding: 0;
+}
+main .carts {
+  display: flex;
+  justify-content: center;
+}
+main .carts .card img {
+  width: 14rem;
+  height: auto;
+  margin: 2rem 12rem 2rem 2rem;
+}
+main .carts .card-body h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  color: #3D2852;
+  font-weight: bold;
+}
+main .carts .card-body p {
+  margin: 2rem 0 5rem 3rem;
+  padding: 0;
+  color: #7D8E9F;
+  opacity: 80%;
+  font-size: 1.8rem;
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
