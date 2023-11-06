@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Maven Pro", sans-serif;
-  color: black;
+  color: #fff;
   text-align: center;
   background: #fff;
 }
@@ -185,58 +185,73 @@ nav {
     margin-top: 60rem;
     z-index: 3;
 
-    img{
+    img {
       margin-right: 1rem;
       padding-bottom: 2rem;
     }
   }
 }
 
-main{
-  .box-3{
+main {
+  .box-3 {
     margin-top: 33rem;
 
-    h2{
+    h2 {
       text-align: left;
-      color: #450E87;
+      color: #450e87;
       font-size: 2rem;
       font-weight: bold;
       margin: 0 0 2rem 3.5rem;
       padding: 0;
     }
-    p{
+    p {
       text-align: left;
-      color: #7D8E9F;
+      color: #7d8e9f;
       font-size: 2.2rem;
       margin: 0 0 2rem 3.5rem;
       padding: 0;
     }
   }
 
-  .carts{
+  .carts {
     display: flex;
     justify-content: center;
 
-    .card{
-      img{
+    .card {
+      background-color: #f6f6fb;
+      border: 1px solid #aba3b7;
+      border-radius: 28px;
+      img {
         width: 14rem;
         height: auto;
         margin: 2rem 12rem 2rem 2rem;
       }
     }
 
-    .card-body{
-      h2{
+    .carousel-indicators {
+      .active{
+        background-color: #450E87;
+      }
+      li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #DDDAE2;
+      }
+    }
+
+    .card-body {
+      h2 {
         margin: 0;
         padding: 0;
         font-size: 2rem;
-        color: #3D2852;
+        color: #3d2852;
         font-weight: bold;
       }
-      p{
+      p {
         margin: 2rem 0 5rem 3rem;
         padding: 0;
-        color: #7D8E9F;
+        color: #7d8e9f;
         opacity: 80%;
         font-size: 1.8rem;
         text-align: left;
