@@ -273,7 +273,7 @@ main .box-5 .main-box .header .tre img {
   margin: auto;
 }
 main .box-5 .main-box p {
-  color: #7D8E9F;
+  color: #7d8e9f;
   opacity: 80%;
   text-align: left;
   margin-left: 2.4rem;
@@ -283,6 +283,37 @@ main .box-5 .main-box p {
 main .box-5 .main-box img {
   width: 30rem;
   height: auto;
+}
+main .box-5 .child-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6FB;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+main .box-5 .child-box img {
+  width: 3.3rem;
+  height: auto;
+}
+main .box-5 .child-box p {
+  color: #7d8e9f;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 1.8rem;
+  margin-right: 5.5rem;
+}
+main .box-5 .child-box .plus {
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  background-color: #FFF;
+  border-radius: 1rem;
+}
+main .box-5 .child-box .plus img {
+  margin: auto;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -282,7 +282,7 @@ main {
   .box-5 {
     width: 30rem;
     margin: 0 auto;
-    
+
     .main-box {
       padding-top: 3rem;
       background-color: #f6f6fb;
@@ -319,8 +319,8 @@ main {
         }
       }
 
-      p{
-        color: #7D8E9F;
+      p {
+        color: #7d8e9f;
         opacity: 80%;
         text-align: left;
         margin-left: 2.4rem;
@@ -328,9 +328,41 @@ main {
         margin-top: 2.2rem;
       }
 
-      img{
+      img {
         width: 30rem;
         height: auto;
+      }
+    }
+
+    .child-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F6F6FB;
+      border-radius: 2rem;
+      margin-top: 1rem;
+      img {
+        width: 3.3rem;
+        height: auto;
+      }
+      p {
+        color: #7d8e9f;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-left: 1.8rem;
+        margin-right: 5.5rem;
+      }
+      .plus {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        background-color: #FFF;
+        border-radius: 1rem;
+        img {
+          margin: auto;
+          width: 1.8rem;
+          height: 1.8rem;
+        }
       }
     }
   }
