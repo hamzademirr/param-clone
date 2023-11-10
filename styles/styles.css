@@ -235,7 +235,7 @@ main .carts .card-body p {
 }
 main .box-5 {
   width: 30rem;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 main .box-5 .main-box {
   padding-top: 3rem;
@@ -287,33 +287,126 @@ main .box-5 .main-box img {
 main .box-5 .child-box {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #F6F6FB;
+  background-color: #f6f6fb;
   border-radius: 2rem;
   margin-top: 1rem;
 }
 main .box-5 .child-box img {
   width: 3.3rem;
   height: auto;
+  margin-left: 2.6rem;
 }
 main .box-5 .child-box p {
   color: #7d8e9f;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-left: 1.8rem;
-  margin-right: 5.5rem;
+  text-align: left;
+  margin-left: 3rem;
 }
-main .box-5 .child-box .plus {
+main .box-5 .child-box .image {
   display: flex;
   width: 4rem;
   height: 4rem;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 1rem;
+  margin-left: auto;
+  margin-right: 3.2rem;
 }
-main .box-5 .child-box .plus img {
+main .box-5 .child-box .image img {
   margin: auto;
   width: 1.8rem;
   height: 1.8rem;
+}
+main .box-6 {
+  background-color: #370865;
+  border-radius: 30px;
+  position: relative;
+  padding-top: 19.5rem;
+  width: 34.4rem;
+  margin: 170px auto 0 auto;
+}
+main .box-6 .photo {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+main .box-6 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3.3rem;
+  margin-top: 2.3rem;
+}
+main .box-6 h2 span {
+  color: #00b7b3;
+}
+main .box-6 .box-footer {
+  margin-top: 3.5rem;
+  background-image: url(../img/p-logo.svg);
+  background-position: center;
+  background-position-y: -180%;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+}
+main .box-6 .box-footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 3.3rem;
+}
+main .box-6 .box-footer button {
+  width: 27.1rem;
+  height: 6rem;
+  margin-top: 4.6rem;
+  border-radius: 2rem;
+  border: 0;
+  background-color: #00b7b3;
+  font-size: 1.8rem;
+  color: #fff;
+}
+main .box-6 .box-footer .text-footer {
+  margin: 0;
+  padding: 0;
+  opacity: 40%;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+main .box-7 {
+  text-align: left;
+  margin-left: 3.6rem;
+  margin-top: 10rem;
+}
+main .box-7 h2 {
+  color: #450e87;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+main .box-7 p {
+  color: #7d8e9f;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4rem;
+}
+main .box-7 .carousel-inner .card {
+  border: 0;
+}
+main .box-7 .carousel-inner img {
+  border-radius: 2rem;
+  width: 35rem;
+}
+main .box-7 .carousel-inner h2 {
+  color: #3d2852;
+}
+main .box-7 .carousel-inner p {
+  font-size: 1.7rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
