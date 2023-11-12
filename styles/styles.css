@@ -408,5 +408,153 @@ main .box-7 .carousel-inner h2 {
 main .box-7 .carousel-inner p {
   font-size: 1.7rem;
 }
+main .box-8 {
+  width: 30.2rem;
+  margin: 0 auto;
+  background-color: #370865;
+  text-align: left;
+  padding-top: 4.2rem;
+  border-radius: 2.8rem 2.8rem 0 0;
+}
+main .box-8 h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 3.2rem;
+}
+main .box-8 p {
+  font-size: 1.8rem;
+  opacity: 80%;
+  margin-top: 2.1rem;
+  margin-left: 3.2rem;
+}
+main .box-8 button {
+  display: block;
+  margin: 3.5rem auto 0 auto;
+  width: 25rem;
+  height: 6rem;
+  border: 0;
+  border-radius: 2rem;
+  background-color: #450e87;
+  color: #fff;
+  font-size: 1.8rem;
+}
+main .box-8 .bacground {
+  height: 15rem;
+  width: 25rem;
+  margin: 0.5rem auto 0 auto;
+  background-image: url(../img/carts-image.png);
+  background-repeat: no-repeat;
+}
+main .box-9 {
+  background-color: #f6f6fb;
+  padding-bottom: 95px;
+}
+main .box-9 .cart {
+  width: 30.2rem;
+  margin: 0 auto;
+  background-color: #0e8f93;
+  text-align: left;
+  padding-top: 4.2rem;
+  border-radius: 0 0 2.8rem 2.8rem;
+}
+main .box-9 .cart h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 3.2rem;
+  color: #fff;
+}
+main .box-9 .cart p {
+  font-size: 1.8rem;
+  color: #fff;
+  opacity: 80%;
+  margin-top: 2.1rem;
+  margin-left: 3.2rem;
+}
+main .box-9 .cart button {
+  display: block;
+  margin: 3.5rem auto 0 auto;
+  width: 25rem;
+  height: 6rem;
+  border: 0;
+  border-radius: 2rem;
+  background-color: #00b7b3;
+  color: #fff;
+  font-size: 1.8rem;
+}
+main .box-9 .cart .bacground {
+  height: 15rem;
+  width: 25rem;
+  margin: 0.5rem auto 0 auto;
+  background-image: url(../img/carts-image.png);
+  background-repeat: no-repeat;
+}
+main .box-9 h2 {
+  color: #450e87;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -0.4px;
+  margin-top: 4.6rem;
+}
+main .box-9 p {
+  color: #7d8e9f;
+  font-size: 2.2rem;
+  letter-spacing: -0.44px;
+  margin-top: 2rem;
+}
+main .box-9 button {
+  width: 22.3rem;
+  height: 7rem;
+  background-color: #fff;
+  border: 0;
+  border-radius: 1.6rem;
+}
+
+footer {
+  background-color: #270f4d;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0 57px;
+  padding: 3rem;
+  border-bottom: 1px solid rgba(124, 99, 158, 0.6352941176);
+}
+footer ul li {
+  margin-right: 5rem;
+  opacity: 80%;
+}
+footer .language {
+  margin-top: 4rem;
+  margin-left: 57px;
+  text-align: left;
+}
+footer .language img {
+  margin-right: 12px;
+}
+footer .language select {
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+footer .about {
+  text-align: left;
+  margin: 47px 57px 0 57px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(124, 99, 158, 0.6352941176);
+}
+footer .about h2 {
+  margin-top: 25px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+footer .about p {
+  font-size: 2.6rem;
+  opacity: 40%;
+}
 
 /*# sourceMappingURL=styles.css.map */
