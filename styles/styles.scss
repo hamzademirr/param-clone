@@ -584,6 +584,7 @@ main {
 
 footer {
   background-color: #270f4d;
+  padding-bottom: 10px;
   ul {
     display: flex;
     list-style: none;
@@ -596,14 +597,14 @@ footer {
     }
   }
 
-  .language{
+  .language {
     margin-top: 4rem;
     margin-left: 57px;
     text-align: left;
-    img{
+    img {
       margin-right: 12px;
     }
-    select{
+    select {
       font-size: 1.6rem;
       background-color: transparent;
       border: 0;
@@ -611,20 +612,42 @@ footer {
     }
   }
 
-  .about{
+  .about {
     text-align: left;
     margin: 47px 57px 0 57px;
     padding-bottom: 30px;
     border-bottom: 1px solid #7c639ea2;
-    h2{
+    h2 {
       margin-top: 25px;
       font-size: 1.8rem;
       font-weight: bold;
     }
 
-    p{
+    p {
       font-size: 2.6rem;
       opacity: 40%;
     }
+  }
+
+  .referans {
+    margin: 30px 57px 0 57px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7c639ea2;
+    img {
+      opacity: 60%;
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+    p {
+      font-size: 1.3rem;
+      opacity: 50%;
+      margin-top: 22px;
+    }
+  }
+
+  p{
+    font-size: 1.5rem;
+    opacity: 80%;
+    margin-top: 20px;
   }
 }
